@@ -1,14 +1,15 @@
-# No real language, of course... Python is hopefully a lightweight runtime
 language: python
 env:
   global:
-    - RS_ACCOUNT=30601
-    - RS_HOST=us-3.rightscale.com
-    - secure: "JhSsjc+BeCkjzfrp/x5+Ew3eaQv1hPEBEdHZY8nevX/+RRh+xNdiqp0Er2QndKz6gGJR9pA0kZHanz9Fib2sztJaksIBlXWuWRbLvAMup4LpTXjW7od4FV1l/V2GJxKitSqSKuWCeP7q1W0Dp6RfmWXZd/YoA+zo6rdL91/GPmA="
+  - RS_ACCOUNT=30601
+  - RS_HOST=us-3.rightscale.com
+  - secure: bwrEPYLlbKQfMrgZYGImuGEFJZVK2V0tV/Xi+WW7IgA98piYtOybEPf+wode9+YpBiHAlkpCzvY7q+2ys7dO8FxG4EL2y4dTT0QdOIfcC8cDg0qHGARuA8wIDVdtRC5nLjWqRo6TjL5cjKrc89c8XQf40DF/nNluEGlNsBMP4a8=
 install:
-  - curl https://binaries.rightscale.com/rsbin/rsc/v6/rsc-linux-amd64.tgz | tar -zxf - -O rsc/rsc > rsc
-  - chmod +x ./rsc
-  - curl https://binaries.rightscale.com/rsbin/right_st/v1/right_st-linux-amd64.tgz | tar -zxf - -O right_st/right_st > right_st
-  - chmod +x ./right_st
-  - chmod +x support_scripts/jenkinsBuildScript.sh
+- curl https://binaries.rightscale.com/rsbin/rsc/v6/rsc-linux-amd64.tgz | tar -zxf
+  - -O rsc/rsc > rsc
+- chmod +x ./rsc
+- curl https://binaries.rightscale.com/rsbin/right_st/v1/right_st-linux-amd64.tgz
+  | tar -zxf - -O right_st/right_st > right_st
+- chmod +x ./right_st
+- chmod +x support_scripts/jenkinsBuildScript.sh
 script: support_scripts/jenkinsBuildScript.sh
