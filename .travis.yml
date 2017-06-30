@@ -1,5 +1,4 @@
 # No real language, of course... Python is hopefully a lightweight runtime
-# Update to trigger travis
 language: python
 env:
   global:
@@ -9,5 +8,5 @@ env:
 install:
   - curl https://binaries.rightscale.com/rsbin/rsc/v6/rsc-linux-amd64.tgz | tar -zxf - -O rsc/rsc > rsc
   - chmod +x ./rsc
-  - curl https://binaries.rightscale.com/rsbin/right_st/v1/right_st-linux-amd64.tgz | tar -zxf - -O right_st/right_st > rsc
+  - curl https://binaries.rightscale.com/rsbin/right_st/v1/right_st-linux-amd64.tgz | tar -zxf - -O right_st/right_st > right_st
   - chmod +x ./right_st
