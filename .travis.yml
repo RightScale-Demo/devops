@@ -3,7 +3,7 @@ env:
   global:
   - RS_ACCOUNT=30601
   - RS_HOST=us-3.rightscale.com
-  - secure: bwrEPYLlbKQfMrgZYGImuGEFJZVK2V0tV/Xi+WW7IgA98piYtOybEPf+wode9+YpBiHAlkpCzvY7q+2ys7dO8FxG4EL2y4dTT0QdOIfcC8cDg0qHGARuA8wIDVdtRC5nLjWqRo6TjL5cjKrc89c8XQf40DF/nNluEGlNsBMP4a8=
+  - secure: buT74UcW506FGzTf4fvgx6pZxH6eFtARLGycJNVDVJtjohyWgrMCMhD4c38k85mAxH7s3Abttz7tj0Mv2/W/cSeDtVYa9F+s1fURB00TELKkrTrj3a3/Og4d248KuO2R++5eWiPoHo0bIX16claJukn6jZjtH8plP+r3H7qsH9c=
 install:
 - curl https://binaries.rightscale.com/rsbin/rsc/v6/rsc-linux-amd64.tgz | tar -zxf
   - -O rsc/rsc > rsc
