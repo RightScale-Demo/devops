@@ -10,3 +10,4 @@ install:
   - chmod +x ./rsc
   - curl https://binaries.rightscale.com/rsbin/right_st/v1/right_st-linux-amd64.tgz | tar -zxf - -O right_st/right_st > right_st
   - chmod +x ./right_st
+script: support_scripts/jenkinsBuildScript.sh
