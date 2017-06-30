@@ -2,7 +2,7 @@
 language: python
 env:
   global:
-    - RS_ACCCOUNT=30601
+    - RS_ACCOUNT=30601
     - RS_HOST=us-3.rightscale.com
     - secure: "JhSsjc+BeCkjzfrp/x5+Ew3eaQv1hPEBEdHZY8nevX/+RRh+xNdiqp0Er2QndKz6gGJR9pA0kZHanz9Fib2sztJaksIBlXWuWRbLvAMup4LpTXjW7od4FV1l/V2GJxKitSqSKuWCeP7q1W0Dp6RfmWXZd/YoA+zo6rdL91/GPmA="
 install:
