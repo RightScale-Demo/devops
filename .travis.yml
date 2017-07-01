@@ -3,7 +3,7 @@ env:
   global:
   - RS_ACCOUNT=30601
   - RS_HOST=us-3.rightscale.com
-  - secure: buT74UcW506FGzTf4fvgx6pZxH6eFtARLGycJNVDVJtjohyWgrMCMhD4c38k85mAxH7s3Abttz7tj0Mv2/W/cSeDtVYa9F+s1fURB00TELKkrTrj3a3/Og4d248KuO2R++5eWiPoHo0bIX16claJukn6jZjtH8plP+r3H7qsH9c=
+  - secure: cxExu89ZLtLc/+dVbIe1VV/bF5y1dT3qS7EUoWlB7WzmChOLu1hWLkLNvpk76MttmkVhL3NKUa10KW63Ga2XR+qliVqR8WI62IJe17G1easN6KCA4EVEbnvFlyPT8av0bdGakOABIDktik30wI8koe0LEmtjfjQSxNMFQDahNlUw4BcFU7XbAUrintI1YOawpr0u3cLWmPsz4B1ZaYwxayFf2p3k3lCPLJBtexK9e7G7zTUF2rmQ9i5Qz6B8nV9wddcwOngFp4xNsvh/cfQT2hJpYi7hiBlLqVcwqv55dby4tNvmOcAP0AWezZ6Y0ih8NsMAgyDhB/J16WdZsxIAB1Posut0fHiwe7A48HhuwzuRzdvyCIpzS2F8IR/wSZxP/Bh7eEi/NiuewZPwcjAKHqIGUMJJG9J1lekMvAjDhmQ231r9jgtAt8Q2jN3b3PVb8tngSQgddnAeRztLWIwN+CjrwYJg6WhKwSmTnlUIZ3jMTILUtr5+6Z4hkyHVLJSDcmEoWjy/gVJL9v1feSZzd41n5mSwACqUQXSmxEoTbKMqjKSwbaZ4j9lCH6n6o44dm+Raf94I/R2aywh0GICMoUAiHaEmbpmZiOh2viAyB7Ld78ulCIjUOuVJ4NszpcCqHvzDFD3ii4qzYCHXf5n1u1EqQLUimXGvVrOkdLHKHeE=
 install:
 - curl https://binaries.rightscale.com/rsbin/rsc/v6/rsc-linux-amd64.tgz | tar -zxf
   - -O rsc/rsc > rsc
