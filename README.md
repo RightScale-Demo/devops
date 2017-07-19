@@ -8,7 +8,7 @@ The "support_scripts" folder contains a RightScript and a support script for Tra
 [![Build Status](https://travis-ci.org/RightScale-Demo/devops.svg?branch=master)](https://travis-ci.org/RightScale-Demo/devops)
 
 ## Demo
-This section discusses how to use this repository to demonstrate the concept of CI/CD in RightScale using this repository.
+This section discusses how to use this repository to demonstrate the concept of CI/CD in RightScale.
 
 ### Preparation
 Before demoing this functionality, prep the following things.
