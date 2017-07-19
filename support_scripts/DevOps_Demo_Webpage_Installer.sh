@@ -1,8 +1,22 @@
 #! /usr/bin/sudo /bin/bash
-# Copyright (c) 2015 by RightScale Inc., all rights reserved worldwide
+# ---
+# RightScript Name: DevOps Demo Webpage Installer
+# Description: "Summary: \nInstalls simple HTML5 website that is customizable with user-entered
+#   text (e.g. Hello World).\nAlso displays the server's IP address.\n\nSupports:\n-
+#   CentOS\n- Ubuntu\n\nInstalls:\n- httpd/apache2\n- unzip"
+# Inputs:
+#   APPLICATION_REPO:
+#     Category: Uncategorized
+#     Input Type: single
+#     Required: true
+#     Advanced: false
+# Attachments: []
+# ...
+# Copyright (c) 2015-2017 by RightScale Inc., all rights reserved worldwide
 
 # Check if git is installed. If not, we'll install it below.
 command -v git >/dev/null 2>&1 || { gitservice="git"; }
+
 
 os_check=`uname -a | grep -i ubuntu`
 if [ $? -eq 0 ]
