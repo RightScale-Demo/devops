@@ -31,7 +31,7 @@ Before demoing this functionality, prep the following things.
   * Github webhook that calls the TravisCI build when code commit occurs
   * .travis.yml defines the [target account](https://github.com/RightScale-Demo/devops/blob/master/.travis.yml#L3-L6) and executes the [support script](https://github.com/RightScale-Demo/devops/blob/master/.travis.yml#L15) for deployment.
   * The support script uses [rsc](https://github.com/RightScale-Demo/devops/blob/master/support_scripts/jenkinsBuildScript.sh#L17) to find all appropriately tagged servers, and run a cloud-agnostic rightscript to deploy the updated code.
-    * Talk to the idea of the build script actually launching the web servers as well - #3
+    * Talk to the idea of the build script actually launching the web servers as well - [RightScale-Demo/devops Issue #3](https://github.com/RightScale-Demo/devops/issues/3)
 * RightScale main talking points:
   * Single view of multiple servers across multiple clouds
   * Enables executing the same code install across multiple servers in multiple clouds.
